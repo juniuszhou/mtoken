@@ -316,7 +316,7 @@ construct_runtime!(
 		// Include the custom logic from the pallet-template in the runtime.
 		TemplateModule: pallet_template::{Pallet, Call, Storage, Event<T>},
 		ChainBridge: pallet_bridge::{Pallet, Call, Storage, Event<T>},
-		BridgeTransfer: pallet_bridge_transfer::{Pallet, Call, Config, Storage},
+		Example: pallet_bridge_transfer::{Pallet, Call, Config, Storage},
 	}
 );
 
